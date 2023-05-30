@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.taskm-header-container{
+    position: relative;
+    background-color: #000;
+    width:100%;
+    height:fit-content;
+    padding-top:50px;
+    z-index: 1;
+
+}
+
+.taskm-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 40px;
+}
+.taskm-title h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    text-align: center; 
+    color: #FFFFFF;
+    
+
+}
+.taskm-title-underline{
+    width: 30%;
+    height:3px;
+    background-color: #fff;
+
+}
+
+
+
+.css-4pax7l-MuiPickersLayout-root{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.css-156tkzh-MuiButtonBase-root-MuiPickersDay-root{
+    color: #fff !important;
+    background-color: transparent !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    display:none !important;
+}
+.css-1hbyad5-MuiTypography-root{
+    display: none;
+}
+.css-jhsfre-MuiGrid-root-MuiPickersToolbar-content{
+    align-items: center !important;
+    justify-content: center !important;
+}
+.css-cwhad8-MuiDateCalendar-root {
+    height: 300px ;
+}
+.css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title{
+font-size: 24px !important;
+}
+.css-1eurbeq-MuiPickersToolbar-root-MuiDatePickerToolbar-root {
+    padding: 0 24px !important;
+}
+.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel{
+    display:none !important;
+}
+.css-1hiwve1-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+    background-color: orange !important;
+}
+.css-156tkzh-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+    background-color: orange !important;
+}
+
+.taskm-body-container{
+    position: relative;
+    margin: 40px 30px;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    
+}
+.taskm-body-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 20px;
+}
+.taskm-body-buttons button{
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.taskm-tasks-box{
+    width:auto;
+    height: 359px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.taskm-task{
+    width:99% !important;
+    margin:0 !important;
+    margin-bottom:20px !important;
+}
+
+

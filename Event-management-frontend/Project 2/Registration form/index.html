@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2a04681e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div className="frame">
+        <div className="back-button">
+            <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
+        </div>
+        <div className="title">
+            <h1>Registration form</h1>
+        </div>
+        <div className="event-description">
+            <div className="title-description">Event description</div>
+            <textarea type="text" placeholder="Write something here....." className="input-description"></textarea>
+        </div>
+        <div className="event-date">
+            <div className="title-date">Event date</div>
+            <input type="datetime-local" className="input-date-1">
+            <div className="sub-title-date">to</div>
+            <input type="datetime-local" className="input-date-2">
+        </div>
+        <div className="email">
+            <div className="title-email">Email</div>
+            <input type="email" className="input-email" placeholder="abcxyz@gmail.com">
+        </div>
+        <div className="question-details">
+            <div className="label0">
+                <div className="question-title">Question(s)</div>
+                <button>
+                    <FontAwesomeIcon icon="fa-solid fa-plus" />
+                </button>
+            </div>
+            <div className="multiple-answer">
+                <div className="multiple-question">
+                    <div className="title-multiple-question">1.</div>
+                    <input type="text" placeholder="Question">
+                </div>
+                <div className="first-answer-label">
+                    <input type="radio" className="first-answer-radio" name="radio" id="radio1">
+                    <input type="text" placeholder="Answer 1" className="first-answer-input" id="radio1">
+                </div>
+                <div className="second-answer-label">
+                    <input type="radio" className="second-answer-radio" name="radio" id="radio2">
+                    <input type="text" placeholder="Answer 2" className="second-answer-input" id="radio2">
+                </div>
+                <div className="third-answer-label">
+                    <input type="radio" className="third-answer-radio" name="radio" id="radio3">
+                    <input type="text" placeholder="Answer 3" className="third-answer-input" id="radio3">
+                </div>
+            </div>
+            <div className="short-answer">
+                <div className="short-question">
+                    <div className="title-short-question">2.</div>
+                    <input type="text" placeholder="Question">
+                </div>
+                <div className="short-answer-input">
+                    <input type="text" placeholder="Short answer .....">
+                </div>
+                </div>
+            <div className="long-answer">
+                <div className="long-question">
+                    <div className="title-long-question">3.</div>
+                    <input type="text" placeholder="Question">
+                </div>
+                <div className="long-answer-input">
+                    <textarea type="text" placeholder="Long answer ....."></textarea>
+                </div>
+            </div>
+            <div className="payment-proof">
+                <div className="title-payment-proof">Payment proof</div>
+                <div className="file-input">
+                    <input type="file" id="file1">
+                    <label for="file1">
+                        <FontAwesomeIcon icon="fa-solid fa-download" />
+                    </label>
+                    <div className="file-info">
+                        <div className="file-name">File name</div>
+                        <div className="time-added">Time added</div>
+                    </div>
+                    <FontAwesomeIcon icon="fa-regular fa-trash-can" />
+                </div>
+            </div>
+            <div className="done-button">
+                <button>Done</button>
+            </div>
+            <div className="question-type-choosing">
+                <div className="question-type-choosing-body">
+                    <a className="multi-answer-choosing"><FontAwesomeIcon icon="fa-solid fa-list-ul" /> Multiple answer</a>
+                    <a className="short-answer-choosing"><FontAwesomeIcon icon="fa-solid fa-grip-lines" /> Short answer</a>
+                    <a className="long-answer-choosing"><FontAwesomeIcon icon="fa-solid fa-bars-staggered" /> Long answer</a>
+                </div>
+            </div>
+            <div className="blank"></div>
+        </div>
+    </div>
+</body>
+</html>

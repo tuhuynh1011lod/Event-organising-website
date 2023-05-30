@@ -1,0 +1,41 @@
+.projects-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:30px;
+    
+    width:auto;
+    height: 257px;
+    background-color: transparent;
+    
+    overflow:auto;
+    white-space: nowrap
+}
+
+.project{
+    min-width: 183.69px;
+    height: 242px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: inline-block;
+
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 60px;
+    text-align: left;
+    
+}
+
+.project-content {
+    width:80%;
+    margin: 150px 20px;
+    overflow: hidden;
+}
+.project-organiser, .project-date, .project-location{
+    font-size:12px;
+    line-height: 1.5;
+    
+}

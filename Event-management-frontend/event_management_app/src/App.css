@@ -1,0 +1,28 @@
+.App {
+  position: relative;
+  margin:0;
+  padding:0;
+  width: 390px;
+  height: 844px;
+  border-radius: 30px;
+  border: 1px solid #000;
+  top:50px;
+  left:30%;
+  margin-bottom:100px;
+  overflow: hidden;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {}
+  
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.frame{
+    position: relative;
+    margin:0;
+    padding:0;
+    width: 390px;
+    height: 844px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    top: 20%;
+    left: 30%;
+    margin-bottom: 300px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    background: #000;
+    font-weight: 700;
+    max-width: 390px;
+}
+.title{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 255px;
+    background: #fff;
+    border-radius:25px 25px 0 0 ;
+    text-align: left;
+    top: 0;
+}
+.title h1{
+    width:50%;
+    padding: 89px 0 0 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.back-button{
+    width: 90px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 30px 0px;
+}
+.name{
+    margin: 60px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-name{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.name input{
+    width: 200px;
+    height: 24px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    padding-left: 10px;
+}
+.admin{
+    margin: 30px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-admin{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.admin input{
+    width: 200px;
+    height: 24px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    padding-left: 10px;
+}
+.type{
+    margin: 30px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-type{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.type input{
+    width: 200px;
+    height: 24px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    transform: translateX(4px);
+    padding-left: 10px;
+}
+.scope{
+    margin: 30px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-scope{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.scope input{
+    width: 50px;
+    height: 24px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    padding-left: 10px;
+}
+.sub-title-scope{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.happening-date{
+    margin: 30px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-happening-date{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.happening-date input{
+    width: 200px;
+    height: 24px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    transform: translateX(-3px);
+    padding-left: 10px;
+}
+.event-id{
+    margin: 30px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-event-id{
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.event-id input{
+    width: 200px;
+    height: 24px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    padding-left: 10px;
+}
+.create-event-button{
+    margin-top: 30px;
+}
+.create-event-button button{
+    position: relative;
+    width: 114px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-weight: 700;
+    left: 230px;
+    border: none;
+}

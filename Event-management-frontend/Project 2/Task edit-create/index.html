@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task edit/create</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f2a04681e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div className="frame">
+        <div className="back-button">
+            <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
+        </div>
+        <div className="title">
+            <input type="text" className="title-body" placeholder="Title Tasks">
+        </div>
+        <div className="people-incharge">
+            <div className="title-people-incharge">People Incharge</div>
+            <div className="row1">
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+            </div>
+            <div className="row2">
+                <div className="item"></div>
+                <div className="item"></div>
+                <button className="item">
+                    <FontAwesomeIcon icon="fa-solid fa-plus" />
+                </button>
+            </div>
+        </div>
+        <div className="status">
+            <div className="title-status">Status</div>
+            <div className="status-body">
+                <input type="checkbox">
+                <div className="unfinished">unfinished</div>
+            </div>
+        </div>
+        <div className="label">
+            <div className="title-label">Label</div>
+            <div className="label-body">
+                <div className="label-tag">None</div>
+                <button className="add-label">
+                    <FontAwesomeIcon icon="fa-solid fa-plus" />
+                </button>
+            </div>
+        </div>
+        <div className="deadline">
+            <div className="title-deadline">Deadline</div>
+            <input type="datetime-local">
+        </div>
+        <div className="description">
+            <div className="title-description">Description</div>
+            <textarea type="text" placeholder="Write something here..."></textarea>
+        </div>
+        <div className="todo">
+            <div className="title-todo">To do(s)</div>
+            <div className="todo-1">
+                <input type="checkbox">
+                <input type="text" placeholder="To do" className="input-todo-1">
+            </div>
+            <button className="add-todo">
+                <FontAwesomeIcon icon="fa-solid fa-plus" />
+            </button>
+        </div>
+        <div className="attachment-files">
+            <div className="title-attachment-files">Attachment Files</div>
+            <div className="file-input">
+                <input type="file" id="file1" accept="application/pdf">
+                <label for="file1">
+                    <i className="fa-solid fa-file-pdf"></i>
+                </label>
+                <div className="file-info">
+                    <div className="file-name">File name</div>
+                    <div className="time-added">Time added</div>
+                </div>
+                <div className="file-icons">
+                    <FontAwesomeIcon icon="fa-regular fa-message" />
+                    <FontAwesomeIcon icon="fa-regular fa-trash-can" />
+                    <FontAwesomeIcon icon="fa-solid fa-pen-to-square" />
+                </div>
+            </div>
+        </div>
+        <div className="done-button">
+            <button>Done</button>
+        </div>
+        <div className="blank"></div>
+    </div>
+</body>
+</html>
